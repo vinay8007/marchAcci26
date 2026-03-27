@@ -12,7 +12,7 @@ const errorMiddleware = require('./middlewares/errorMiddleware');
 
 app.use(express.json());
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://task-manager-fronend.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,

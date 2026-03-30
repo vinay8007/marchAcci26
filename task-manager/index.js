@@ -69,7 +69,7 @@ app.use((req, res, next) => {
 });
 
 const corsOptions = {
-    origin: 'https://task-manager-frontend.onrender.com',
+    origin: 'https://task-manager-frontend-m7zr.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,

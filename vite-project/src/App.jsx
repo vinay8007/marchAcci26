@@ -10,7 +10,7 @@ function App() {
   const [status, setStatus] = useState(null)
   const [uploadedUrl, setUploadedUrl] = useState(null)
   // Vite exposes env vars on import.meta.env. Provide a fallback to localhost:3000.
-  const API_BASE = import.meta.env.VITE_APP_API_URL || 'http://localhost:3000'
+  const API_BASE = import.meta.env.VITE_APP_API_URL || 'https://task-manager-backend-dhzz.onrender.com'
 
   const handleFileChange = (e) => {
     const f = e.target.files[0]
